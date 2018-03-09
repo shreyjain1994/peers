@@ -1,0 +1,48 @@
+{
+  "name": "peers",
+  "version": "0.0.1",
+  "description": "Determines the valid versions of the peer dependencies for a module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "./node_modules/ts-jest/preprocessor.js"
+    },
+    "testMatch": [
+      "**/test/**/*.test.(ts|js)"
+    ],
+    "testEnvironment": "node"
+  },
+  "author": "Shrey Jain <shrey@shreyjain.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "ncp": "^2.0.0",
+    "package-json": "^4.0.1",
+    "tmp": "0.0.33"
+  },
+  "devDependencies": {
+    "@types/debug": "0.0.30",
+    "@types/jest": "^22.2.0",
+    "@types/ncp": "^2.0.1",
+    "@types/node": "^9.4.6",
+    "@types/package-json": "^4.0.1",
+    "@types/tmp": "0.0.33",
+    "jest": "^22.4.2",
+    "ts-jest": "^22.4.1",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  }
+}

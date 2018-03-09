@@ -1,0 +1,17 @@
+{
+  "name": "mod1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test1": "node index1.js",
+    "test2": "node index2.js",
+    "test3": "node index3.js"
+  },
+  "peerDependencies": {
+    "@shreyjain1994/peers-test1": "*"
+  },
+  "keywords": [],
+  "author": "Shrey Jain <shrey@shreyjain.ca>",
+  "license": "ISC"
+}

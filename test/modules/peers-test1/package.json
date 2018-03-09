@@ -1,0 +1,16 @@
+{
+  "name": "@shreyjain1994/peers-test1",
+  "version": "0.0.9",
+  "description": "Test module used in tests for @shreyjain1994/peers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Shrey Jain <shrey@shreyjain.ca>",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  }
+}
